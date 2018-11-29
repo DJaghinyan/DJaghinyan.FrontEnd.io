@@ -1,0 +1,439 @@
+body{
+  margin:0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+#home header{
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+#home header ul{
+  display: flex;
+  margin-left: 50px;
+}
+#home header li{
+  margin-left: 20px;
+  color: white;
+}
+#home header li:hover{
+  color: grey;
+}
+#home header a{
+  padding: 15px;
+  color: white;
+}
+#home header a:hover{
+  color: grey;
+}
+
+#home{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/manwithcomputer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.p{
+  margin-top: 15%;
+  color: white;
+  font-size: 35px;
+  font-family: 'Arvo', serif;
+}
+
+#home .arajin{
+  height: 50px;
+  width: 150px;
+  border-radius: 5%;
+  border: none;
+  background-color: #1a57a5;
+  color: white;
+}
+#home .arajin:hover{
+  background-color: #2e4167;
+}
+#home button:hover{
+  background-color: #cebebee0;
+}
+#home button{
+  height: 50px;
+  width: 150px;
+  border-radius: 5%;
+  border: none;
+  background-color: #e7ecf352;
+  border: 1px solid grey;
+  color: white;
+  font-size: 20px;
+}
+#features{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.features{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.features div{
+  margin-left: 20px;
+}
+.features i{
+  font-size: 80px;
+}
+.features a{
+  color: #1a57a5;
+}
+.features h2{
+  color: #1a57a5;
+}
+#bajinner{
+  height: 50vh;
+  text-align: center;
+  background-color: #D6E6F2;
+  padding: 10px;
+}
+#bajinner h2{
+  font-size: 50px;
+}
+#bajinner hr{
+  width: 10%;
+  height: 2px;
+  background-color: #1a57a5;
+}
+#bajinner p{
+  width: 50%;
+  display: inline-block;
+  font-size: 20px;
+  color: #73767c;
+}
+#bajinarajin{
+  height: 100vh;
+  width: 100%;
+  background-color: #D6E6F2;
+  display: flex;
+  justify-content: flex-start;
+}
+#bajinarajin img{
+  height: 500px;
+  width: 700px;
+}
+#bajinarajin div{
+  margin-left: 60px;
+}
+.bajina h2{
+  font-size: 40px;
+  color: #1a57a5;
+}
+.bajina p{
+  color: #73767c;
+  width: 600px;
+  font-size: 20px;
+}
+.bajina li{
+  color: #73767c;
+  font-size: 20px;
+}
+#sectionb{
+  height: 100vh;
+  width: 100%;
+  background-color: #D6E6F2;
+  display: flex;
+  justify-content: flex-end;
+}
+#sectionb img{
+  height: 500px;
+  width: 700px;
+}
+#sectionb .sectionb{
+  margin-right: 60px;
+}
+.sectionb h2{
+  font-size: 40px;
+  color: #1a57a5;
+}
+.sectionb p{
+  color: #73767c;
+  width: 600px;
+  font-size: 20px;
+}
+.sectionb li{
+  color: #73767c;
+  font-size: 20px;
+}
+#choose{
+  text-align: center;
+  height: 50vh;
+  padding: 20px;
+}
+#choose h2{
+  font-size: 40px;
+}
+#choose hr{
+  height: 3px;
+  width: 10%;
+  background-color: #1a57a5;
+}
+#choose p{
+  color:#73767c;
+  width: 70%;
+  display: inline-block;
+}
+#yashikner{
+  height: 100vh;
+  width: 100%;
+}
+#yashikner .yashikner{
+  display: flex;
+  justify-content: center;
+}
+.yashikner div{
+  margin-left: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.yashikner h2{
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+}
+.yashikner h3{
+  font-size: 30px;
+  color: #1a57a5;
+}
+.yashikner p{
+  color: #73767c;
+}
+
+.yashikner li{
+  color: #73767c;
+}
+.yashiner div button{
+  padding:20px;
+  text-align: center;
+}
+.yashikner .a{
+  box-shadow: grey 2px 2px 2px 1px;
+}
+.yashikner .b{
+  box-shadow: grey 3px 5px 15px 1px;
+}
+.yashikner .c{
+  box-shadow: grey 2px 2px 2px 1px;
+}
+.yashikner .a button{
+  padding: 10px;
+  background-color: black;
+  color:white;
+  font-size: 15px;
+  border:0;
+}
+.yashikner .b button{
+  padding: 20px;
+  background-color: #1a57a5;
+  color:white;
+  font-size: 15px;
+  border:0;
+}
+.yashikner .c button{
+  padding: 10px;
+  background-color: black;
+  color:white;
+  font-size: 15px;
+  border:0;
+}
+#thisiswhy{
+  padding: 20px;
+  background-color: #D6E6F2;
+}
+#thisiswhy .text{
+  text-align: center;
+}
+#thisiswhy .text h2{
+  font-size: 40px;
+}
+#thisiswhy .text hr{
+  height: 3px;
+  width: 10%;
+  background-color: #1a57a5;
+}
+#thisiswhy .text p{
+  color:#73767c;
+  width: 70%;
+  display: inline-block;
+}
+#thisiswhy .mardik{
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+}
+#thisiswhy .sharqmek{
+  display: flex;
+  justify-content: center;
+}
+#thisiswhy .sharqerku{
+  display: flex;
+  justify-content: center;
+}
+.mardik div{
+  background-color: white;
+  padding: 20px;
+}
+.mardik div img{
+  height: 60px;
+  border-radius: 50%;
+}
+.mardik div i{
+  color: orange;
+}
+#try{
+  height: 100vh;
+  width: 100%;
+}
+#try .try{
+  text-align: center;
+}
+.try h2{
+  font-size: 40px;
+}
+.try hr{
+  height: 3px;
+  width: 10%;
+  background-color: #1a57a5;
+}
+.try p{
+  color:#73767c;
+  width: 70%;
+  display: inline-block;
+}
+.try button{
+  padding: 20px;
+  background-color: #1a57a5;
+  color: white;
+  border:0;
+  font-size: 15px;
+}
+.mac{
+  text-align: center;
+  padding: 20px;
+}
+.mac img{
+  height: 500px;
+  width: 700px;
+}
+.ptichkaner{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.ptichkaner div{
+  margin-left: 20px;
+}
+.ptichkaner i{
+  color:#1a57a5;
+}
+.ptichkaner p{
+  text-align: center;
+  width: 500px;
+  color:#73767c;
+}
+#join{
+  height: 50vh;
+  width: 100%;
+  background-color: #1a57a5;
+  text-align: center;
+}
+#join h2{
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+}
+#join hr{
+  height: 2px;
+  width: 10%;
+  background-color: white;
+  border: 0;
+}
+#join p{
+  color: white;
+  width: 70%;
+  display: inline-block;
+}
+#join button{
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border:0;
+  font-size: 15px;
+}
+#getintouch{
+  height: 100vh;
+  width: 100%;
+  background-color: #D6E6F2;
+}
+.qichmnac{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.qichmnac .email{
+  padding: 20px;
+  background-color: white;
+}
+.qichmnac .email input{
+    margin-top: 5px;
+    height: 40px;
+    width: 400px;
+}
+.qichmnac .email textarea{
+    margin-top: 10px;
+    width: 400px;
+}
+.qichmnac .email button{
+  padding: 15px;;
+  background-color: #1a57a5;
+  color: white;
+  border:0;
+}
+.qichmnac .contact{
+  margin-left: 50px;
+}
+.qichmnac .contact h2{
+  color:rgba(0,0,0,.3);
+}
+.qichmnac p{
+  color: grey;
+}
+footer{
+  height: 50vh;
+  width: 100%;
+  background-color: #1a57a5;
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+}
+footer li{
+  margin-left: 10px;
+  color: rgba(0,0,0,.3);
+}
+footer p{
+  color: white;
+  margin-left: 30px;
+}
